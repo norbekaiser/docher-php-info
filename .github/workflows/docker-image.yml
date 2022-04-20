@@ -3,7 +3,7 @@ on:
   push:
     branches: [ master ]
 permissions:
-  content: read
+  contents: read
   packages: write
 jobs:
   build:
