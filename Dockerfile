@@ -1,4 +1,4 @@
 FROM php:latest
-RUN mkdir -p /var/www
-RUN echo "<?php" >> /var/www/index.php
-RUN echo "echo phpinfo();" >> /var/www/index.php
+RUN mkdir -p /var/www/html/
+RUN echo "<?php" >> /var/www/html/index.php
+RUN echo "echo phpinfo();" >> /var/www/html/index.php
